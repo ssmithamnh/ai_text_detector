@@ -12,7 +12,7 @@ model.eval()
 # Streamlit App
 st.title("CopyCat Catcher")
 st.write("SOS AI Detector")
-
+st.image("/Users/stevensmith/Desktop/SOS/ai projects/ai_text_detector/images/copy_cat_logo.png", width = 400)
 # Input text box
 input_text = st.text_area("Paste Text Here")
 
