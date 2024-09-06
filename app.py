@@ -10,11 +10,11 @@ tokenizer = AutoTokenizer.from_pretrained("tokenizer")
 model.eval()
 
 # Streamlit App
-st.title("AI vs Human Text Classifier")
-st.write("This app predicts if the text is AI-generated or human-written.")
+st.title("CopyCat Catcher")
+st.write("SOS AI Detector")
 
 # Input text box
-input_text = st.text_area("Enter text to classify:")
+input_text = st.text_area("Paste Text Here")
 
 # Run inference when the user clicks the button
 if st.button("Classify"):
